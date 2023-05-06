@@ -4,7 +4,7 @@ ipaddress = "9.37.65.139"
 status = "failed"
 time = "08:51:02"
 message = "WARNING"
-
+print("Aarthy")
 for line in lines:
     if message in line:
         linestrip = line.strip().split(' ')
